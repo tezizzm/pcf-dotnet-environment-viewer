@@ -1,7 +1,6 @@
 ---
 applications:
-- name: dotnet-app
-  host: env-${random-word}
+- name: dotnet-[your_name]
   memory: 1024m
   stack: windows2012R2
   buildpack: hwc_buildpack
